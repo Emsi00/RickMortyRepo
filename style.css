@@ -1,0 +1,23 @@
+p {
+  margin: 5px;
+}
+.greet {
+  display: flex;
+  flex-direction: row;
+}
+.greetDiv {
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newLi {
+  font-size: 30px;
+  list-style: none;
+  margin-top: 10px;
+  border: 1px solid gray;
+}

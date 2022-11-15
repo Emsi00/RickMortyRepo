@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="greet">
+      <div class="greetDiv"><p>Rick and Morty Library</p></div>
+      <div class="greetDiv"><p>Created by Emsi</p></div>
+    </div>
+    <div class="container">
+      <div style="font-size: 30px"><p>Character</p></div>
+    </div>
+    <div>
+      <input type="text" id="search-word" />
+
+      <button id="fetch">Search</button>
+    </div>
+    <div>
+      <ul id="characterList"></ul>
+    </div>
+    <div style="display: flex; justify-content: space-around">
+      <button id="prevPage">previous page</button>
+      <p id="pageNum">Page 1</p>
+      <button id="nextPage" style="margin-right: 0%">next page</button>
+    </div>
+  </body>
+</html>
